@@ -1,0 +1,130 @@
+#mainFrame{
+background-color: #FFFFFF;
+position:absolute;
+z-index:4;
+}
+
+#mainFrame #headerMainFrame{
+cursor:move;
+height:47px;
+background-color: rgb(74,74,74);
+color: white;
+}
+
+#headerMainFrame .titleIcon{
+float: left;
+background-repeat: no-repeat;
+height: 25px;
+width: 25px;
+margin-top: 4px;
+margin-left: 5px;
+margin-right: 0px;
+}
+
+#headerMainFrame .callActions .newIcon{
+background-repeat: no-repeat;
+height: 25px;
+width: 25px;
+margin-left: 2px;
+margin-right: 2px;
+}
+
+.newIcon:focus, .newIcon:active {
+outline: none;
+}
+
+#headerMainFrame .callInfo{
+margin-top: 2px;
+float: left;
+width: 48%;
+overflow: hidden;
+}
+
+
+#headerMainFrame .callInfo .title1{
+padding-left:10px;
+font-size: 16px;
+font-weight: 400;
+}
+
+#headerMainFrame .callInfo .title1 .part2{
+padding-left:10px;
+}
+
+#headerMainFrame .callInfo .title2{
+padding-left:10px;
+font-size: 16px;
+font-weight: 400;
+}
+
+#headerMainFrame .callActions{
+float: right;
+margin-top: 10px;
+}
+
+#headerMainFrame .callActions .closeIcon{
+background-image: url("/images/com.sn_openframe/Close.svg");
+background-repeat: no-repeat;
+background-size: 20px;
+height: 25px;
+width: 25px;
+margin-left: 2px;
+margin-right: 5px;
+}
+
+#headerMainFrame .callActions .minimize{
+background-image: url("/images/com.sn_openframe/minus-square-solid.svg");
+background-repeat: no-repeat;
+background-size: 20px;
+height: 25px;
+width: 25px;
+margin-left: 2px;
+margin-right: 5px;
+}
+
+#headerMainFrame .callActions .maximize{
+background-image: url("/images/com.sn_openframe/plus-square-solid.svg");
+background-repeat: no-repeat;
+background-size: 20px;
+height: 25px;
+width: 25px;
+margin-left: 2px;
+margin-right: 5px;
+}
+
+#bodyMainFrame {
+border-left: 1px solid rgba(198, 204, 214, 1);
+border-right: 1px solid rgba(198, 204, 214, 1);
+border-bottom: 1px solid rgba(198, 204, 214, 1);
+}
+
+#bodyMainFrame .hideIframe{
+position:absolute;
+background-color: transparent;
+top: 41px;
+left: 0;
+width: 100%;
+}
+
+.openframe-icon {
+margin-right: 8px;
+}
+
+.openframe-hidden {
+display:none !important;
+}
+
+.frameFooter {
+background-color: rgb(125, 125, 125);
+width: 100%
+}
+
+.frameFooter>span:hover
+{
+background-color: rgb(102, 102, 102);
+}
+
+.frameFooter>span:focus
+{
+background-color: rgb(102, 74, 74);
+}
